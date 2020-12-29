@@ -15,7 +15,7 @@
 		//Musica
 		case '21':
 			$tabla='Cancion';
-			$archivo = 'canciones.html';
+			$archivo = 'tablaCanciones.php';
 			$encabezado = 'Canciones '.$tabla;
 		break;
 		

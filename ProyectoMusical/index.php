@@ -34,9 +34,9 @@ Licence URI: https://www.os-templates.com/template-terms
 	
     <div class="fl_right"> 
       <ul class="nospace">  
-	  <li><a href="ver_codigo.php?archivo=<?php echo $archivo?>" target="blank" title="Ver código PHP de la opción seleccionada"><i class="fas fa-file-alt"></i></a></li>
-      <li><a href="ver_codigo.php?archivo=index.php" target="blank" title="Ver código PHP de index"><i class="fas fa-bars"></i></a></li>
-      <li><a href="ver_codigo.php?archivo=navegar.php" target="blank" title="Ver código PHP de estructura de navegación (switch-case)"><i class="fas fa-ship"></i></a></li>
+	  <li><a href="mostrarCodigo.php?archivo=<?php echo $archivo?>" target="blank" title="Ver código PHP de la opción seleccionada"><i class="fas fa-file-alt"></i></a></li>
+      <li><a href="mostrarCodigo.php?archivo=index.php" target="blank" title="Ver código PHP de index"><i class="fas fa-bars"></i></a></li>
+      <li><a href="mostrarCodigo.php?archivo=navegar.php" target="blank" title="Ver código PHP de estructura de navegación (switch-case)"><i class="fas fa-ship"></i></a></li>
 	  <li><a href="ejemplo_clase_bd.zip" target="blank" title="Descargar scripts PL/SQL de la BD ventas"><i class="fas fa-database"></i></a></li>
     </ul>
     </div>
