@@ -291,43 +291,44 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(27, 172, 215, 0.93);}/*rgba(0,0,0,.55)*/
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FD8866; border-color:#FD8866;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FFF5EE; border-color:#FFF5EE;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,.55);}
-.imgover, .imgover:hover::after{color:#FD8866;}
+.imgover, .imgover:hover::after{color:#FFF5EE;}
 
 
 /* Rows */
 
 /*Baicamente el fondo*/
-.row0, .row0 a{color:#FF000; background-color:#000000;} 
+.row0, .row0 a{color:#FFFFFF; background:linear-gradient(-90deg, #A8C9AE, #13C1C5);} 
 .row1{color:#474747; background-color:#FFFFFF;}
-.row2{color:#FFFFFF; background:linear-gradient(-90deg, #FD8866, #FA543A);}
+.row2{color:#FFFFFF; background:linear-gradient(-90deg, #A8C9AE, #13C1C5);}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#DFDFDF; background-color:#262626; border-color:#FA543A;}
-.row5, .row5 a{color:#DFDFDF; background-color:#1A1A1A;}
+.row5, .row5 a{color:#FFFFFF; background-color:#885159;}
 
-.coloured{color:#FFFFFF; background:linear-gradient(90deg, #FD8866, #FA543A);}
-.coloured .btn{background-color:#FD8866; border-color:#FD8866;}
+.coloured{color:#FFFFFF; background:linear-gradient(90deg, #FFF5EE, #FA543A);}
+.coloured .btn{background-color:#FFF5EE; border-color:#FFF5EE;}
 .coloured .btn:hover{background-color:transparent; border-color:inherit;}
+
 
 
 /* Top Bar */
 #topbar ul li{border-color:rgba(255,255,255,.4);}
-#topbar li:first-child a, #topbar a:hover{color:#FD8866;}
+#topbar li:first-child a, #topbar a:hover{color:#FFF5EE;}
 
 
 /* Header */
 #header #logo a{color:inherit;}
-#header #logo i{color:rgba(253,136,102,.5);}/* #FD8866 */
+#header #logo i{color:rgba(27, 172, 215, 0.93);}/* #FD8866 rgba(253,136,102,.5)*/
 #header section input, #header section button{border-color:rgba(0,0,0,.2);}
-#header section input:focus{border-color:#FD8866;}
-#header section button{color:#FFFFFF; background-color:#FD8866; border-color:#FA543A;}
+#header section input:focus{border-color:#FFF5EE;}
+#header section button{color:#FFF5EE; background-color:#008080; border-color:#FA543A;}
 
 
 /* Page Intro */

@@ -303,12 +303,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 
 
 /* Rows */
-.row0, .row0 a{color:#FFFFFF; background-color:#000000;}
+.row0, .row0 a{color:#FFFFFF; background:linear-gradient(-90deg, #A8C9AE, #13C1C5);} 
 .row1{color:#474747; background-color:#FFFFFF;}
-.row2{color:#FFFFFF; background:linear-gradient(-90deg, #FD8866, #FA543A);}
+.row2{color:#FFFFFF; background:linear-gradient(-90deg, #A8C9AE, #13C1C5);}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#DFDFDF; background-color:#262626; border-color:#FA543A;}
-.row5, .row5 a{color:#DFDFDF; background-color:#1A1A1A;}
+.row5, .row5 a{color:#FFFFFF; background-color:#885159;}
 
 .coloured{color:#FFFFFF; background:linear-gradient(90deg, #FD8866, #FA543A);}
 .coloured .btn{background-color:#FD8866; border-color:#FD8866;}
@@ -317,15 +317,16 @@ input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 
 /* Top Bar */
 #topbar ul li{border-color:rgba(255,255,255,.4);}
-#topbar li:first-child a, #topbar a:hover{color:#FD8866;}
+#topbar li:first-child a, #topbar a:hover{color:#54e7d5;}
+
 
 
 /* Header */
 #header #logo a{color:inherit;}
 #header #logo i{color:rgba(253,136,102,.5);}/* #FD8866 */
 #header section input, #header section button{border-color:rgba(0,0,0,.2);}
-#header section input:focus{border-color:#FD8866;}
-#header section button{color:#FFFFFF; background-color:#FD8866; border-color:#FA543A;}
+#header section input:focus{border-color:#54e7d5;}
+#header section button{color:#FFFFFF; background-color:#54e7d5; border-color:#FA543A;}
 
 
 /* Page Intro */
@@ -341,9 +342,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 /* Intro Blocks */
 #introblocks article{box-shadow:0px 0px 8px rgba(255,255,255,.2);}
 #introblocks article:hover{background-color:rgba(0,0,0,1);}
-#introblocks article i{color:#FD8866; border-color:rgba(255,255,255,.2);}
+#introblocks article i{color:#54e7d5; border-color:rgba(255,255,255,.2);}
 #introblocks article footer i{color:inherit;}
-#introblocks article:hover > a i{color:#FFFFFF; background-color:#FD8866; border-color:#FD8866;}
+#introblocks article:hover > a i{color:#FFFFFF; background-color:#54e7d5; border-color:#54e7d5;}
 
 
 /* Latest */
