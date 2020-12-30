@@ -21,44 +21,9 @@ Licence URI: https://www.os-templates.com/template-terms
 <body id="top">
 
 
-
 <div class="wrapper row0">
-  <div id="topbar" class="hoc clear"> 
-    <div class="fl_left"> 
-      <ul class="nospace"> 
-		<li><a href="http://www.uabc.mx"                      target="blank"                 title="Universidad Autónoma de Baja California"   ><i class="fas fa-university"> </i></a></li>	  
-		<li><a href="http://fcqi.tij.uabc.mx"                 target="blank"                  title="Facultad de Ciencias Químicas e Ingeniería"><i class="fas fa-university">     </i></a></li>
-		<li><a href="https://cucapa.tij.uabc.mx/computacion/" target="blank" title="Ingeniería en Computación"><i class="fas fa-university"></i></a></li>
-    </ul>
-    </div>
-	
-    <div class="fl_right"> 
-      <ul class="nospace">  
-	  <li><a href="mostrarCodigo.php?archivo=<?php echo $archivo?>" target="blank" title="Ver código PHP de la opción seleccionada"><i class="fas fa-file-alt"></i></a></li>
-      <li><a href="mostrarCodigo.php?archivo=index.php" target="blank" title="Ver código PHP de index"><i class="fas fa-bars"></i></a></li>
-      <li><a href="mostrarCodigo.php?archivo=navegar.php" target="blank" title="Ver código PHP de estructura de navegación (switch-case)"><i class="fas fa-ship"></i></a></li>
-	  <li><a href="ejemplo_clase_bd.zip" target="blank" title="Descargar scripts PL/SQL de la BD ventas"><i class="fas fa-database"></i></a></li>
-    </ul>
-    </div>
-  </div>
-</div>
-
-<div class="wrapper row1">
-  <header id="header" class="hoc clear">
-    <section>
-      <div></div>
-      <div>
-       <h3 class="heading">Bases de Datos<br>PROYECTO MUSICAL<br><a href="index.php">Sony Music</a></h3>
-      </div>
-       
-	   <div><img src="images/LogoBaseMusical.png"></div>
-    </section>
-  </header>
-</div>
-
-<div class="wrapper row2">
-  <nav id="mainav" class="hoc clear">
-    <ul class="clear">
+  <div id="mainav" class="hoc clear"> 
+   <ul class="clear">
 	
 		<li class="active"><a href="index.php">1] Bienvenida</a></li>
 	
@@ -122,7 +87,27 @@ Licence URI: https://www.os-templates.com/template-terms
 	   </li>
 	   -->
     </ul>
-  </nav>
+   
+  </div>
+</div>
+
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <section>
+      <div></div>
+      <div>
+       <h3 class="heading">Bases de Datos<br>PROYECTO MUSICAL<br><a href="index.php">Sony Music</a></h3>
+      </div>
+       
+	   <div><img src="images/LogoBaseMusical.png"></div>
+    </section>
+  </header>
+</div>
+
+<div class="wrapper row2">
+  <div id=" " class="hoc clear"> 
+    
+  </div>
 </div>
 
 
