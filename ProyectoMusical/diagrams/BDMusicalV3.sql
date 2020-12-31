@@ -1,11 +1,13 @@
+SET FOREIGN_KEY_CHECKS = 0;
+
 -- -----------------------------------------------------
 -- Album
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS Album;
 CREATE TABLE Album(
+  idAlbum INT NOT NULL,
   Nombre VARCHAR(30) NOT NULL,
   Fecha DATE NULL,
-  idAlbum INT NOT NULL,
   PRIMARY KEY (idAlbum)
   );
 
@@ -14,8 +16,8 @@ CREATE TABLE Album(
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS GeneroMusical;
 CREATE TABLE GeneroMusical(
-  Nombre VARCHAR(45) NULL,
   idGenero INT NOT NULL,
+  Nombre VARCHAR(45) NULL,
   PRIMARY KEY (idGenero)
   );
 
@@ -27,7 +29,7 @@ CREATE TABLE Cancion(
   idCancion INT NOT NULL,
   Nombre VARCHAR(45) NOT NULL,
   FechaLanzamiento DATE NULL,
-  idAlbum INT NOT NULL,
+  idAlbum INT,
   idGenero INT NOT NULL,
   FOREIGN KEY (idAlbum)
   REFERENCES Album(idAlbum),
@@ -141,3 +143,5 @@ CREATE TABLE Artista_has_Cancion(
   REFERENCES  Cancion (idCancion), 
   PRIMARY KEY (Musico_idMusico, idCancion)
   );
+
+SET FOREIGN_KEY_CHECKS = 1;

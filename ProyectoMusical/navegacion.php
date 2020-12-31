@@ -16,7 +16,7 @@
 		case '21':
 			$tabla='Cancion';
 			$archivo = 'tablaCanciones.php';
-			$encabezado = 'Canciones '.$tabla;
+			$encabezado = 'Canciones ';
 		break;
 		
 		case '22':
