@@ -15,52 +15,52 @@
 		//Musica
 		case '21':
 			$tabla='Cancion';
-			$archivo = 'tablaCanciones.php';
+			$archivo = 'tabla.php';
 			$encabezado = 'Canciones ';
 		break;
 		
 		case '22':
 			$tabla='Album';
-			$archivo = 'albumes.html';
-			$encabezado = 'Albumes '.$tabla;
+			$archivo = 'tabla.php';
+			$encabezado = 'Albumes';
 		break;
 		
 		case '23':
 			$tabla='GeneroMusical';
-			$archivo = 'generos.html';
-			$encabezado = 'Generos Musicales '.$tabla;
+			$archivo = 'tabla.php';
+			$encabezado = 'Generos Musicales';
 		break;
 		
 		//Artistas
 		case '31':
 			$tabla='Musico';
-			$archivo = 'canciones.html';
-			$encabezado = 'Canciones '.$tabla;
+			$archivo = 'tabla.php';
+			$encabezado = 'Musicos';
 		break;
 		
 		case '32':
 			$tabla='Compositor';
-			$archivo = 'compositores.html';
-			$encabezado = 'Compositores '.$tabla;
+			$archivo = 'tabla.php';
+			$encabezado = 'Compositores';
 		break;
 		
 		case '33':
-			$tabla='Premio';
-			$archivo = 'premios.html';
-			$encabezado = 'Premios '.$tabla;
+			$tabla='Premios';
+			$archivo = 'tabla.php';
+			$encabezado = 'Premios';
 		break;
 		
 		//Otros
 		case '41':
-			$tabla='Musico';
-			$archivo = 'canciones.html';
-			$encabezado = 'Canciones '.$tabla;
+			$tabla='Persona';
+			$archivo = 'tabla.php';
+			$encabezado = 'Personas';
 		break;
 		
 		case '42':
-			$tabla='Compositor';
-			$archivo = 'compositores.html';
-			$encabezado = 'Compositores '.$tabla;
+			$tabla='Representante';
+			$archivo = 'tabla.php';
+			$encabezado = 'Representantes';
 		break;
 		
 		//Actualizaciones

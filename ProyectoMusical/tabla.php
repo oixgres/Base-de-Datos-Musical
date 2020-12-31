@@ -8,7 +8,7 @@ $consulta_sql= "SELECT * FROM $tabla";
 
 $resultado = mysqli_query($enlace, $consulta_sql);
 
-include "desplegarTablaCanciones.php";
+include "desplegarTabla.php";
 
 mysqli_close($enlace);
 

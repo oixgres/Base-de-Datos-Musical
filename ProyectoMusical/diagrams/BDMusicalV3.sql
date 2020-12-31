@@ -56,8 +56,8 @@ CREATE TABLE Premios(
 DROP TABLE IF EXISTS Persona;
 CREATE TABLE Persona(
   RFC VARCHAR(10) NOT NULL,
+  Nombre VARCHAR(45) NOT NULL,
   Edad INT NULL,
-  Nombre VARCHAR(45) NULL,
   PRIMARY KEY (RFC)
   );
 
@@ -85,7 +85,7 @@ CREATE TABLE Musico(
   idMusico VARCHAR(10) NOT NULL,
   Descripcion VARCHAR(100) NULL,
   Grupo VARCHAR(45) NULL,
-  Premios_idPremio INT NOT NULL,
+  Premios_idPremio INT NULL,
   idRepresentante VARCHAR(10) NOT NULL,
   RFC VARCHAR(10) NOT NULL,
   FOREIGN KEY (Premios_idPremio)

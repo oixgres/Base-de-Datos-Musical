@@ -45,8 +45,8 @@ Licence URI: https://www.os-templates.com/template-terms
 		
 		<li> <a class = "drop" href = "#">4] Otros</a>
 			<ul>
-				<li> <a href = "index.php?opcion_menu=41">1] Persona</a></li>
-				<li> <a href = "index.php?opcion_menu=42">2] Representante</a></li>
+				<li> <a href = "index.php?opcion_menu=41">1] Personas</a></li>
+				<li> <a href = "index.php?opcion_menu=42">2] Representantes</a></li>
 			</ul>
 		</li>
 		
