@@ -284,7 +284,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#DFDFDF; background-color:#1A1A1A;}
-a{color:#FD8866;}
+a{color:#A74856;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -305,9 +305,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 /* Rows */
 
 /*Baicamente el fondo*/
-.row0, .row0 a{color:#FFFFFF; background:linear-gradient(-90deg, #A8C9AE, #13C1C5);} 
+.row0, .row0 a{color:#FFFFFF; background-color:#885159;} 
 .row1{color:#474747; background-color:#FFFFFF;}
-.row2{color:#FFFFFF; background:linear-gradient(-90deg, #A8C9AE, #13C1C5);}
+.row2{color:#FFFFFF; background-color:#885159;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#DFDFDF; background-color:#262626; border-color:#FA543A;}
 .row5, .row5 a{color:#FFFFFF; background-color:#885159;}
@@ -338,15 +338,15 @@ input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 
 /* Content Area */
 #services a{color:inherit;}
-#services article:hover a{color:#FD8866;}
+#services article:hover a{color:#A86C72;}
 
 
 /* Intro Blocks */
 #introblocks article{box-shadow:0px 0px 8px rgba(255,255,255,.2);}
 #introblocks article:hover{background-color:rgba(0,0,0,1);}
-#introblocks article i{color:#FD8866; border-color:rgba(255,255,255,.2);}
+#introblocks article i{color:#A86C72; border-color:rgba(255,255,255,.2);}
 #introblocks article footer i{color:inherit;}
-#introblocks article:hover > a i{color:#FFFFFF; background-color:#FD8866; border-color:#FD8866;}
+#introblocks article:hover > a i{color:#FFFFFF; background-color:#A86C72; border-color:#A86C72;}
 
 
 /* Latest */
@@ -366,15 +366,15 @@ input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 /* Navigation */
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#000000; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(250,84,58,.8);/* #FA543A */ border-color:rgba(250,84,58,1);/* #FA543A */}
-#mainav li li:hover > a, #mainav .active .active > a{color:#000000; background-color:#FA543A;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(136,81,89, 0.8);}            /*CAMBIO DE COLOR DE FONDO DE MENU */
+#mainav li li:hover > a, #mainav .active .active > a{color:#000000; background-color:#A74856}       /*CAMBIO DE COLOR DEL SOMBREADO*/
 #mainav form select{color:#474747; background-color:#FFFFFF;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
 #breadcrumb li:last-child a{color:#FD8866;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#FD8866;}
+.container .sidebar nav a:hover{color:#A86C72;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#FD8866;}
