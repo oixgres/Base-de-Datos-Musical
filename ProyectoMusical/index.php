@@ -106,7 +106,7 @@ Licence URI: https://www.os-templates.com/template-terms
 
 <div class="wrapper row2">
   <div id=" " class="hoc clear"> 
-    
+    <img src="images/barra.png"></div>
   </div>
 </div>
 
