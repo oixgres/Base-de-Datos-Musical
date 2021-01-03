@@ -8,6 +8,7 @@ CREATE TABLE Album(
   idAlbum INT NOT NULL,
   Nombre VARCHAR(30) NOT NULL,
   Fecha DATE NULL,
+  CantidadCanciones INT NULL,
   PRIMARY KEY (idAlbum)
   );
 

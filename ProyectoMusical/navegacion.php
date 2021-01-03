@@ -84,7 +84,7 @@
 			$tabla = 'Cancion';
 			$llave = 'idCancion';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Canciones '.$tabla;
+			$encabezado = 'Modificar Canciones ';
 		break;
 		
 		case '62':
@@ -92,7 +92,7 @@
 			$tabla = 'Album';
 			$llave = 'Nombre';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Albumes '.$tabla;
+			$encabezado = 'Modificar Albumes ';
 		break;
 		
 		case '63':
@@ -100,7 +100,7 @@
 			$tabla = 'GeneroMusical';
 			$llave = 'Nombre';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Generos '.$tabla;
+			$encabezado = 'Modificar Generos ';
 		break;
 		
 		case '64':
@@ -108,7 +108,7 @@
 			$tabla = 'Musico';
 			$llave = 'idMusico';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Musicos '.$tabla;
+			$encabezado = 'Modificar Musicos ';
 		break;
 		
 		case '65':
@@ -116,7 +116,7 @@
 			$tabla = 'Compositor';
 			$llave = 'idCompositor';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Compositores '.$tabla;
+			$encabezado = 'Modificar Compositores ';
 		break;
 		
 		case '66':
@@ -124,7 +124,7 @@
 			$tabla = 'Premio';
 			$llave = 'idPremio';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Premios '.$tabla;
+			$encabezado = 'Modificar Premios ';
 		break;
 		
 		case '67':
@@ -132,7 +132,7 @@
 			$tabla = 'Persona';
 			$llave = 'RFC';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Personas '.$tabla;
+			$encabezado = 'Modificar Personas ';
 		break;
 		
 		case '68':
@@ -140,7 +140,7 @@
 			$tabla = 'Representante';
 			$llave = 'idRepresentante';
 			$archivo = 'consultaTablaAgregable.php';
-			$encabezado = 'Modificar Representantes '.$tabla;
+			$encabezado = 'Modificar Representantes ';
 		break;
 		
 		//Casos no numericos
