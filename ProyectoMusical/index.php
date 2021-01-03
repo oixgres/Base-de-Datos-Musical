@@ -50,16 +50,23 @@ Licence URI: https://www.os-templates.com/template-terms
 			</ul>
 		</li>
 		
-		<li> <a class = "drop" href = "#">5] Actualizaciones</a>
+		<li> <a class = "drop" href = "#">5]Busqueda</a>
 			<ul>
-				<li> <a href = "index.php?opcion_menu=51">1] Canciones </a></li>
-				<li> <a href = "index.php?opcion_menu=52">2] Albumes</a></li>
-				<li> <a href = "index.php?opcion_menu=53">3] Generos</a></li>
-				<li> <a href = "index.php?opcion_menu=54">4] Musicos</a></li>
-				<li> <a href = "index.php?opcion_menu=55">5] Compositores</a></li>
-				<li> <a href = "index.php?opcion_menu=56">6] Premios</a></li>
-				<li> <a href = "index.php?opcion_menu=55">7] Persona</a></li>
-				<li> <a href = "index.php?opcion_menu=56">8] Representante</a></li>
+				<li> <a href = "index.php?opcion_menu=51">1] Canciones</a></li>
+				<li> <a href = "index.php?opcion_menu=52">2] Artistas</a></li>
+			</ul>
+		</li>
+		
+		<li> <a class = "drop" href = "#">6] Actualizaciones</a>
+			<ul>
+				<li> <a href = "index.php?opcion_menu=61">1] Canciones </a></li>
+				<li> <a href = "index.php?opcion_menu=62">2] Albumes</a></li>
+				<li> <a href = "index.php?opcion_menu=63">3] Generos</a></li>
+				<li> <a href = "index.php?opcion_menu=64">4] Musicos</a></li>
+				<li> <a href = "index.php?opcion_menu=65">5] Compositores</a></li>
+				<li> <a href = "index.php?opcion_menu=66">6] Premios</a></li>
+				<li> <a href = "index.php?opcion_menu=67">7] Persona</a></li>
+				<li> <a href = "index.php?opcion_menu=68">8] Representante</a></li>
 			</ul>
 		</li>
 	<!---

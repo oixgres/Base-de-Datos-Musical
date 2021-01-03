@@ -63,69 +63,110 @@
 			$encabezado = 'Representantes';
 		break;
 		
-		//Actualizaciones
+		//Busqueda
 		case '51':
-			$opcion_menu='formulario_editable';
-			$tabla = 'Cancion';
-			$llave = 'idCancion';
-			$archivo = 'consulta_tabla_musica.php';
-			$encabezado = 'Modificar Canciones '.$tabla;
+			$procedimiento='buscaCancion';
+			$entrada='subcadena';
+			$archivo='formularioBusqueda.php';
+			$encabezado='Busqueda de canciones';
 		break;
 		
 		case '52':
-			$opcion_menu='formulario_editable';
+			$procedimiento='buscaArtista';
+			$entrada='subcadena';
+			$archivo='formularioBusqueda.php';
+			$encabezado='Busqueda de artistas';
+		break;
+		
+		//Actualizaciones
+		case '61':
+			$opcion_menu='formularioInsertable';
+			$tabla = 'Cancion';
+			$llave = 'idCancion';
+			$archivo = 'consultaTablaAgregable.php';
+			$encabezado = 'Modificar Canciones '.$tabla;
+		break;
+		
+		case '62':
+			$opcion_menu='formularioInsertable';
 			$tabla = 'Album';
 			$llave = 'Nombre';
-			$archivo = 'consulta_tabla_musica.php';
+			$archivo = 'consultaTablaAgregable.php';
 			$encabezado = 'Modificar Albumes '.$tabla;
 		break;
 		
-		case '53':
-			$opcion_menu='formulario_editable';
+		case '63':
+			$opcion_menu='formularioInsertable';
 			$tabla = 'GeneroMusical';
 			$llave = 'Nombre';
-			$archivo = 'consulta_tabla_musica.php';
+			$archivo = 'consultaTablaAgregable.php';
 			$encabezado = 'Modificar Generos '.$tabla;
 		break;
 		
-		case '54':
-			$opcion_menu='formulario_editable';
+		case '64':
+			$opcion_menu='formularioInsertable';
 			$tabla = 'Musico';
 			$llave = 'idMusico';
-			$archivo = 'consulta_tabla_musica.php';
+			$archivo = 'consultaTablaAgregable.php';
 			$encabezado = 'Modificar Musicos '.$tabla;
 		break;
 		
-		case '55':
-			$opcion_menu='formulario_editable';
+		case '65':
+			$opcion_menu='formularioInsertable';
 			$tabla = 'Compositor';
 			$llave = 'idCompositor';
-			$archivo = 'consulta_tabla_musica.php';
+			$archivo = 'consultaTablaAgregable.php';
 			$encabezado = 'Modificar Compositores '.$tabla;
 		break;
 		
-		case '56':
-			$opcion_menu='formulario_editable';
+		case '66':
+			$opcion_menu='formularioInsertable';
 			$tabla = 'Premio';
 			$llave = 'idPremio';
-			$archivo = 'consulta_tabla_musica.php';
+			$archivo = 'consultaTablaAgregable.php';
 			$encabezado = 'Modificar Premios '.$tabla;
 		break;
 		
-		case '57':
-			$opcion_menu='formulario_editable';
+		case '67':
+			$opcion_menu='formularioInsertable';
 			$tabla = 'Persona';
 			$llave = 'RFC';
-			$archivo = 'consulta_tabla_musica.php';
+			$archivo = 'consultaTablaAgregable.php';
 			$encabezado = 'Modificar Personas '.$tabla;
 		break;
 		
-		case '58':
-			$opcion_menu='formulario_editable';
+		case '68':
+			$opcion_menu='formularioInsertable';
 			$tabla = 'Representante';
 			$llave = 'idRepresentante';
-			$archivo = 'consulta_tabla_musica.php';
+			$archivo = 'consultaTablaAgregable.php';
 			$encabezado = 'Modificar Representantes '.$tabla;
+		break;
+		
+		//Casos no numericos
+		case 'Buscar':
+			$archivo = 'consultaProcedimiento.php';
+			$encabezado = 'Resultado';
+		break;
+		
+		case 'formularioEditable':
+			$archivo = 'formularioEditable.php';
+			$encabezado = "Editar";
+		break;
+		
+		case 'Actualizar':
+			$archivo = 'actualizarTabla.php';
+			$encabezado = "Actualizar";
+		break;
+		
+		case 'formularioInsertable':
+			$archivo='formularioInsertable.php';
+			$encabezado='Editar';
+		break;
+		
+		case 'Insertar':
+			$archivo = 'insertarTabla.php';
+			$encabezado = "Nuevo renglon";
 		break;
 	}
 ?>
