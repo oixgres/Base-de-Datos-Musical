@@ -87,7 +87,7 @@ CREATE TABLE Musico(
   Descripcion VARCHAR(100) NULL,
   Grupo VARCHAR(45) NULL,
   Premios_idPremio INT NULL,
-  idRepresentante VARCHAR(10) NOT NULL,
+  idRepresentante VARCHAR(10) NULL,
   RFC VARCHAR(10) NOT NULL,
   FOREIGN KEY (Premios_idPremio)
   REFERENCES Premios(idPremio),
