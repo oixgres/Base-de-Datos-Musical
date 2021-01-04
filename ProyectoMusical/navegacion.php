@@ -78,8 +78,23 @@
 			$encabezado='Busqueda de artistas';
 		break;
 		
-		//Actualizaciones
+		//Listas
 		case '61':
+			$procedimiento='listaGenero';
+			$entrada='subcadena';
+			$archivo='formularioBusqueda.php';
+			$encabezado='Canciones por genero';
+		break;
+		
+		case '62':
+			$procedimiento='listaAlbum';
+			$entrada='subcadena';
+			$archivo='formularioBusqueda.php';
+			$encabezado='Canciones por album';
+		break;
+		
+		//Actualizaciones
+		case '71':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'Cancion';
 			$llave = 'idCancion';
@@ -87,7 +102,7 @@
 			$encabezado = 'Modificar Canciones ';
 		break;
 		
-		case '62':
+		case '72':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'Album';
 			$llave = 'Nombre';
@@ -95,7 +110,7 @@
 			$encabezado = 'Modificar Albumes ';
 		break;
 		
-		case '63':
+		case '73':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'GeneroMusical';
 			$llave = 'Nombre';
@@ -103,7 +118,7 @@
 			$encabezado = 'Modificar Generos ';
 		break;
 		
-		case '64':
+		case '74':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'Musico';
 			$llave = 'idMusico';
@@ -111,7 +126,7 @@
 			$encabezado = 'Modificar Musicos ';
 		break;
 		
-		case '65':
+		case '75':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'Compositor';
 			$llave = 'idCompositor';
@@ -119,7 +134,7 @@
 			$encabezado = 'Modificar Compositores ';
 		break;
 		
-		case '66':
+		case '76':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'Premio';
 			$llave = 'idPremio';
@@ -127,7 +142,7 @@
 			$encabezado = 'Modificar Premios ';
 		break;
 		
-		case '67':
+		case '77':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'Persona';
 			$llave = 'RFC';
@@ -135,7 +150,7 @@
 			$encabezado = 'Modificar Personas ';
 		break;
 		
-		case '68':
+		case '78':
 			$opcion_menu='formularioInsertable';
 			$tabla = 'Representante';
 			$llave = 'idRepresentante';
