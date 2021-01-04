@@ -64,6 +64,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<ul>
 				<li> <a href = "index.php?opcion_menu=61">1] Canciones por genero</a></li>
 				<li> <a href = "index.php?opcion_menu=62">2] Canciones por album </a></li>
+				<li> <a href = "index.php?opcion_menu=63">3] Canciones por artista </a></li>
 			</ul>
 		</li>
 		

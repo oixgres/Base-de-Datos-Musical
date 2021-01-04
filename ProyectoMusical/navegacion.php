@@ -109,6 +109,13 @@
 			$encabezado='Canciones por album';
 		break;
 		
+		case '63':
+			$procedimiento='listaArtista';
+			$entrada='subcadena';
+			$archivo='formularioBusqueda.php';
+			$encabezado='Canciones por artista';
+		break;
+		
 		//Actualizaciones
 		case '71':
 			$opcion_menu='formularioInsertable';
