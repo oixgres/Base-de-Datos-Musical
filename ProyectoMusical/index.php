@@ -113,7 +113,7 @@ Licence URI: https://www.os-templates.com/template-terms
        <h3 class="heading">Bases de Datos<br>PROYECTO MUSICAL<br><a href="index.php">Sony Music</a></h3>
       </div>
        
-	   <div><img src="images/LogoBaseMusical.png"></div>
+	   <div><img src="images/LogoBaseMusical3.png"></div>
     </section>
   </header>
 </div>
