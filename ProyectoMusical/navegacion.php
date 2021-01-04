@@ -71,6 +71,13 @@
 			$encabezado = 'Clasificacion Persona';
 		break;
 		
+		case '44':
+			$funcion='cancionesAnuales';
+			$entrada='Año';
+			$salida='Resultado';
+			$archivo='formularioFuncion.php';
+			$encabezado = 'Canciones totales por año';
+		break;
 		
 		//Busqueda
 		case '51':
