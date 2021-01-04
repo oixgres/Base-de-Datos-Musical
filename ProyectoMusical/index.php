@@ -47,6 +47,8 @@ Licence URI: https://www.os-templates.com/template-terms
 			<ul>
 				<li> <a href = "index.php?opcion_menu=41">1] Personas</a></li>
 				<li> <a href = "index.php?opcion_menu=42">2] Representantes</a></li>
+				<li> <a href = "index.php?opcion_menu=43">3] Funcion Clasifica persona</a></li>
+				
 			</ul>
 		</li>
 		

@@ -63,6 +63,15 @@
 			$encabezado = 'Representantes';
 		break;
 		
+		case '43':
+			$funcion='clasificaPersona';
+			$entrada='RFC';
+			$salida='Es';
+			$archivo = 'formularioFuncion.php';
+			$encabezado = 'Clasificacion Persona';
+		break;
+		
+		
 		//Busqueda
 		case '51':
 			$procedimiento='buscaCancion';
@@ -159,6 +168,11 @@
 		break;
 		
 		//Casos no numericos
+		case 'ConsultaFn':
+			$archivo='consulta_funcion.php';
+			$encabezado='Resultado de la funcion'.$GET["funcion"];
+		break;
+		
 		case 'Buscar':
 			$archivo = 'consultaProcedimiento.php';
 			$encabezado = 'Resultado';
