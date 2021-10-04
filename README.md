@@ -1,2 +1,2 @@
 # Base de Datos Musical
- NULL
+Base de datos de una industria musical
